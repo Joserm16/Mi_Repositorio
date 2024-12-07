@@ -25,7 +25,6 @@ class SolicitudIntercambio {
             activa = false;
         }
 
-        void guardarEnFichero(std::string nombreFichero);
 };
 
 #endif
