@@ -1,5 +1,14 @@
 #include <iostream>
 
 int main(){
-    std::cout<<"Hola";
+    int a;
+    int b;
+
+    std::cin>>a;
+    std::cin>>b;
+
+    std::cout<<"a = "<<a;
+
+
+    return 0;
 }
