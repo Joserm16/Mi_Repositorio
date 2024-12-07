@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
 
 // Clase que representa una solicitud de intercambio
 class SolicitudIntercambio {
@@ -23,6 +24,8 @@ class SolicitudIntercambio {
         void anular() {
             activa = false;
         }
+
+        void guardarEnFichero(std::string nombreFichero);
 };
 
 #endif
