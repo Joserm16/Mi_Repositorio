@@ -1,6 +1,7 @@
 #include <iostream>
 #include "funciones.h"
 
+
 void mostrarMenu() {
     std::cout << "\n===== MENÚ DEL SISTEMA DE CONVALIDACIONES =====\n";
     std::cout << "1. Mostrar planes de convalidación disponibles\n";
@@ -13,6 +14,7 @@ void mostrarMenu() {
 }
 
 int main() {
+
     SistemaConvalidacion sistema;
     std::vector<PlanConvalidacion> planesDisponibles;
 
